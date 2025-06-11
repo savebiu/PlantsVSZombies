@@ -15,13 +15,13 @@ public enum PlantType
 {
     Sunflower,
     PeaShooter,
-    CherryBomb,
-    WallNut
+    WallNut,
+    Jalapeno
 }
 
 public class Card : MonoBehaviour
 {
-    //ÀäÈ´ ¿ÉÒÔ±»µã»÷  ²»¿ÉÓÃ
+    //ï¿½ï¿½È´ ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     private CardState cardState = CardState.Disable;
     public PlantType plantType = PlantType.Sunflower;
 
