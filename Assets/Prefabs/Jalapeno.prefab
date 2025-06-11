@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3216273486676538199}
   - component: {fileID: 3216273486676538192}
   - component: {fileID: 3216273486676538197}
-  - component: {fileID: 6571411415861699838}
+  - component: {fileID: 1326684443999581856}
   m_Layer: 0
   m_Name: Jalapeno
   m_TagString: Plant
@@ -134,7 +134,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 56.825066, y: 84.53003}
   m_EdgeRadius: 0
---- !u!114 &6571411415861699838
+--- !u!114 &1326684443999581856
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,6 +143,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3216273486676538193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc5e69a55ecc03a46aff52aff430efde, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b3dd2a4848504b40893a599778f0877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plantType: 3
+  HP: 100
+  attackDelay: 1
+  jalapenoAttackPrefab: {fileID: 926978048934298824, guid: afbadb2c5396a934585025a78bdef6a8, type: 3}
+  atkValue: 100
