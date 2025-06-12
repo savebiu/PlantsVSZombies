@@ -87,9 +87,9 @@ public class Zombie : MonoBehaviour
 
         else if(collision.tag == "car"){
             collision.GetComponent<Car>().speed = 10;
-            //currentHp = -1;
-            Dead();
-            //Destroy(collision.gameObject,3f);
+            TakeDamage(currentHP);
+            //Dead();
+            Destroy(collision.gameObject,3f);
         }
 
         else if (collision.tag == "House")

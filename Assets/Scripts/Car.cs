@@ -5,7 +5,7 @@ using UnityEngine;
 public class Car : MonoBehaviour
 {
     // 汽车的移动速度
-    public float speed = 3;
+    public float speed;
 
     // 关联的汽车游戏对象
     public GameObject car;

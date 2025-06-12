@@ -108,8 +108,6 @@ public class Card : MonoBehaviour
         cardMask.gameObject.SetActive(true);
     }
 
-    
-
     public void OnClick()
     {
         AudioManager.Instance.PlayClip(Config.btn_click);
